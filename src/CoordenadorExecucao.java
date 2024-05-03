@@ -171,7 +171,7 @@ public class CoordenadorExecucao {
                                 // var empregadoTeste = var (empregadoAtual);
                                 
                                 System.out.println(empregadoAtual.getNome()+" faz aniversário neste mês! Portanto, ganha um bônus de 100 reais.");
-                                System.out.printf("Salário com bônus de R$100: $%.2f", empregadoAtual.vencimentos()+100);
+                                System.out.printf("Salário com bônus de R$100: $%,.2f", empregadoAtual.vencimentos()+100);
                                 System.out.println(); //QUEBRAR A LINHA NÉ
                         }
 
